@@ -1,6 +1,6 @@
 {
 "esp32": {
-"version": "1.2",
+"version": "1.0",
 "bin_url": "https://raw.githubusercontent.com/iRumesh/FOTA/main/ESP/ESP.bin"
    }
 }
