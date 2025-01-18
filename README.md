@@ -4,7 +4,7 @@
 
 ```plaintext
 ESP/
-├── cert.h                    # Github rootCA
+├── cert.h                    # Github rootCA [Valid till 1/15/38, 5:30:00 PM GMT+5:30]
 ├── config.h                  # WiFi Credential, FW ver, Github FW json path config
 ├── ESP.ino                   # Main Sketch
 ├── ESP.bin                   # Updated compiled sketch
@@ -30,7 +30,7 @@ ESP/
     const char* ssid = "";
     const char* wifiPassword = "";
 
-    #define URL_fw_JSON "https://raw.githubusercontent.com/../FW.json"
+    #define URL_fw_JSON "https://raw.githubusercontent.com/iRumesh/FOTA/main/ESP/FW.json"
    ```
 3. **Save the changes and upload the Firmware to the Board**  
 
@@ -42,7 +42,7 @@ ESP/
      {
       "esp32": {
      "version": "1.1",
-     "bin_url": "https://raw.githubusercontent.com/iRumesh/....FOTA.bin"
+     "bin_url": "https://raw.githubusercontent.com/iRumesh/FOTA/main/ESP/ESP.ino.bin"
         }
      }
 ```
