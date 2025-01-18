@@ -1,0 +1,6 @@
+{
+"esp32": {
+"version": "1.0.1",
+"bin_url": "https://raw.githubusercontent.com/MadeeshaLakshan/ESP8266_FOTA_PUBLIC/main/FOTA_with_github_public_repo.ino.bin"
+   }
+}
