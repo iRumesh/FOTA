@@ -8,9 +8,9 @@ const char* ssid = "Carpe Diem";
 const char* wifiPassword = "100#Dreams";
 
 // Firmware version
-String FirmwareVer = "1.1";
+String FirmwareVer = "1.0";
 
 // Define the URL for the JSON file
-#define URL_fw_JSON "https://raw.githubusercontent.com/iRumesh/FOTA/refs/heads/main/FW.json"
+#define URL_fw_JSON "https://raw.githubusercontent.com/iRumesh/FOTA/main/ESP/FW.json"
 
 #endif 
