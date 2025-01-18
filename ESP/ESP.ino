@@ -29,7 +29,7 @@ const long interval = 5000;
 
 void setup() {
     Serial.begin(115200);
-    Serial.print("Active Firmware Version: ");
+    Serial.print("Active Firmware Version is: ");
     Serial.println(FirmwareVer);
 
     WiFi.begin(ssid, wifiPassword);
